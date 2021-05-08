@@ -1,0 +1,14 @@
+*{margin:0px;}
+body{background-color:azure;}
+h1{text-align:center;color:blue;border:6x purple;}
+h2{text-align:right;color:orange;border:5px solid black;}
+h3{text-align:left;color:navy;border:4px solid green}
+h4{text-align:center;color:steelblue;border:3px solid tomato}
+h5{text-align:right;color:chocolate;border:2px solid violet;}
+h6{text-align:left:color:pink;border:1px solid gold;}
+.p1{border:6px solid red;color:white; background-color:blue;}
+.p2{border:6px solid blue;color:yellow; background-color:black;}
+.p3{border:6px solid green;color:white; background-color:brown;}
+.p4{border:6px solid grey;color:light blue; background-color:red;}
+.p5{border:6px solid dark green;color:blue light; background-color:pink;}
+.p6{border:6px solid violet;color:white; background-color:blue;}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head> 
+	<meta charset="UTF-8">
+	<title> Ejercicio 13 F </title>
+	<style>
+		body{background-color:#98FB98;}
+	   table,th,td{border:1px solid;color: #9988FF;}
+	.divprincipal{margin-left:25%;margin-right:25%;
+		widht:50%;}
+		table{width:100%;background-color#FAFA55;}
+		thead{
+		      background-color:#996655;
+		      font-size:30px;
+		      color:#DFEDFE;
+		      height:60px;				      
+		      padding-top:5px;
+		      padding-bottom:5px;	      
+		      }
+		tfoot{
+		      background-color:#882299;
+		      font-size:30px;
+		      text-align:center;
+		       }
+		tbody{
+		       background-color:#333333;
+		      text-align:center;
+			 color:#FFFFFF;	       
+		       font-size:20px;
+			}
+		h1{border:1px solid blue;text-align:center;}
+		.producto{text-align:left;
+			background-color:#112299;
+			border-style:inset;
+			border-width:10px;
+			border-color:#FF8C00;}
+		.cantidad{
+			background-color:#886644;
+			border-style:outset;
+			border-width:10px;
+			border-color:#00FFFF;			
+			}
+		caption{font-size:30px;color:#AABBCC;
+			}
+		th.Cabhead{height:40px;
+			width:33%;border-radius:25px;
+			border-style:ridge;
+			border-width:12px;
+			border-color:#334466;
+			}	
+		th.CabExterno{
+			height:50px;
+			border-radius:50px;
+			border: 12px groove #FF34BB;
+			}
+		th.CabInterno{
+			height:50px;
+			border-radius:60px; 
+			border: 12px double #FF77BB;			
+			}
+		td.Total{
+			border: 10px double #77FF0F;
+			background-color:#F69889;
+			height:33%;
+			text-align:right;}
+			
+			
+</style>
+</head>
+<body>
+<div class="divprincipal">
+<h1>Tabla con Etiquetas de Agrupación</h1>
+<table>
+	<caption><b>Lista de Compras</b></caption>
+	<thead>
+	<tr>
+	   <th class="Cabhead"><div>Producto</div></th>
+	   <th class="Cabhead"><div>Cantidad</div></th>
+	   <th class="Cabhead"><div>Precio</div></th>
+	</tr>
+	</thead>
+	<tfoot>
+	   <tr>
+		<td colspan="2" class="Total">Total</td>
+		<td>$13500</td>		
+	   </tr>
+	</tfoot>	
+	<tbody>
+	<tr>	
+	<th colspan="3" class="CabExterno">Componentes externos</th>
+	</tr>
+	<tr>
+		<td class="producto">Monitor</td>
+		<td class="cantidad">1</td>
+		<td>$2000</td>
+	   </tr>
+	   <tr>
+		<td class="producto">Mouse</td>
+		<td class="cantidad">1</td>
+		<td>$250</td>
+	   </tr>
+	   <tr>
+		<td class="producto">Teclado</td>
+		<td class="cantidad">1</td>
+		<td>$350</td>
+	   <tr>
+		<td class="producto">Gabinete</td>
+		<td class="cantidad">1</td>
+		<td>$700</td>
+	   </tr>
+	   <tr>
+		<td class="producto">Bocinas</td>
+		<td class="cantidad">2</td>
+		<td>$250</td>
+	   </tr>
+	   <tr>
+		<td class="producto">Micrófono</td>
+		<td class="cantidad">1</td>
+		<td>$350</td>
+	   <tr>
+		<td class="producto">Cámara</td>
+		<td class="cantidad">1</td>
+		<td>$400</td>
+	   </tr>
+	   <tr>
+		<td class="producto">Impresora</td>
+		<td class="cantidad">1</td>
+		<td>$900</td>
+	   </tr>
+	   <tr>
+		<td class="producto">Escáner</td>
+		<td class="cantidad">1</td>
+		<td>$800</td>
+	   </tr>
+
+	   <tr>
+	<th colspan="3" class="CabInterno">Componentes Internos</th>
+	   </tr>
+	   <tr>
+		<td class="producto">Procesador 1.19Ghz Core</td>
+		<td class="cantidad">1</td>
+		<td>$2000</td>
+	   </tr>
+	   <tr>
+		<td class="producto">Memoria RAM 8GB DDR3</td>
+		<td class="cantidad">1</td>
+		<td>$800</td>
+	   </tr>
+	   <tr>
+		<td class="producto">Disco Duro HDD</td>
+		<td class="cantidad">1</td>
+		<td>$800</td>
+	   </tr>
+	   <tr>
+		<td class="producto">Tarjeta Madre</td>
+		<td class="cantidad">1</td>
+		<td>$1500</td>
+           </tr>
+	   <tr>
+		<td class="producto">Fuente de Poder</td>
+		<td class="cantidad">1</td>
+		<td>$900</td>
+	   </tr>
+	   <tr>
+		<td class="producto">Tarjeta de Video 2G</td>
+		<td class="cantidad">1</td>
+		<td>$1200</td>
+	   </tr>
+	   
+</tbody>
+
+</table>
+</div>
+</body>
+</html>

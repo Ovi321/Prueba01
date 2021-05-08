@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width:device-width,initial-scale=1.0">
+	<title>Ejercicio 14 B</title>
+	<style>	
+		h1{text-align:center;}
+		.Pintura{margin-right:3%;margin-left:3%;
+		width:94%;border:5px solid black;height:500px;padding:0px;}
+		.Pintura picture img{margin-right:1%;margin-left:1%;
+		width:100%;height:500px;margin:0px;}
+
+	</style>
+	</head>
+	<body>
+		<h1> Diferentes Imágenes </h1>
+		<div class="Pintura">
+		<picture>
+			<source media="(max-width:500px)" srcset="../img/Atardecer.jpg">
+			<source media="(max-width:900px)" srcset="../img/Cascada.jpg">
+			<img src="../img/Rio2.jpg" alt="texto">
+
+
+		</picture>
+		</div>
+		<p> La imagen cambia dependiendo del tamaño del navegador </p>
+	</body>
+</html>
